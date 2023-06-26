@@ -1,19 +1,28 @@
 body{
-    background-image: url("giorgio-trovato-OKXwmdbdXkk-unsplash.jpg");
+    background-image: url("janko-ferlic-sfL_QOnmy00-unsplash.jpg");
     background-size:cover;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:center;
-    
+    height:100vh;
 }
 
+.container{
+    background:transparent;
+    max-width:50%;
+    margin:auto;
+    border:3px solid white;
+    border-radius:30px;
+}
 h1{
    margin-top: 20px;
    margin-bottom:20px;
+   color:rgb(245, 229, 197);
 }
 h2{
     font-size: 25px;
     margin-top: 20px;
     margin-bottom:30px;
+    color:white;
 }
 
 button{
@@ -27,7 +36,7 @@ button{
     margin-top:5px;
     border-radius:200px;
     cursor:pointer;
-    
+    border:2px solid black
 }
 
 #increment-btn{
@@ -36,4 +45,13 @@ button{
 
 #save-btn{
     background:rgb(52, 139, 52);
+}
+
+p{
+    margin-top:20px;
+    margin-bottom:30px;
+    margin-left:10px;
+    margin-right:10px;
+    color:rgb(15, 14, 14);
+    font-weight:bold;
 }
