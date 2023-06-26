@@ -22,15 +22,15 @@ h2{
     font-size: 25px;
     margin-top: 20px;
     margin-bottom:30px;
-    color:white;
+    color:rgba(244, 241, 238, 0.893);
 }
 
 button{
-    border:none;
+
     padding-top:10px;
     padding-bottom:10px;
     color:white;
-    font-weight:bond;
+    font-weight:bold;
     width:150px;
     margin-bottom:5px;
     margin-top:5px;
@@ -52,6 +52,46 @@ p{
     margin-bottom:30px;
     margin-left:10px;
     margin-right:10px;
-    color:rgb(15, 14, 14);
+    color:white;
     font-weight:bold;
+}
+
+@media only screen and (max-width:600px){
+    h1{
+        font-size:20px;
+    }
+
+    .container{
+    background:transparent;
+    max-width:80%;
+    margin:auto;
+    border:3px solid white;
+    border-radius:30px;
+}
+
+    h2{
+        font-size: 20px;
+    }
+
+    button{
+        padding-top:5px;
+        padding-bottom:5px;
+        color:white;
+        font-weight:bold;
+        width:120px;
+        margin-bottom:10px;
+        border-radius:100px;
+        cursor:pointer;
+        border:2px solid black
+    }
+
+    p{
+       font-size:14px; 
+    }
+
+    #save-btn{
+        background:rgb(52, 139, 52);
+        margin-left:10px;
+
+    }
 }
